@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3609091260279168992
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CloudCover2
+  m_Shader: {fileID: -6465566751694194690, guid: 8485a91d7cc2e6b468c4746017945aec, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Base_Scale: 0.028
+    - _Base_Speed: 2.45
+    - _Base_Strength: 0.49
+    - _CurvatureRadius: 1094.5
+    - _Emission_Strength: 2.4
+    - _Fade_Depth: 146.2
+    - _Fresnel_Opacity: -0.28
+    - _Fresnel_Power: 3.2
+    - _NoiseScale: 0.01
+    - _NoiseSpeed: 47.15
+    - _Noise_Edge_1: -0.28
+    - _Noise_Edge_2: 1.95
+    - _Noise_Power: 1.91
+    - _OffsetIntensity: 0.2
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _Color1: {r: 0.0029411765, g: 0.011764706, b: 0.026470589, a: 0}
+    - _Color2: {r: 0.44146055, g: 0.5450686, b: 0.54732096, a: 0}
+    - _NoiseRemap: {r: -0.12, g: 0.79, b: -1.4, a: 0.73}
+    - _RotateProjection: {r: 1, g: 0, b: 0, a: 90}
+  m_BuildTextureStacks: []
