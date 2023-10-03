@@ -38,7 +38,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LED:
-        m_Texture: {fileID: 2800000, guid: c2782c8cdc19b04479c5da26f3856e9d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 454cff3f3f8e1384fb1844f317c7c333, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
@@ -65,13 +65,14 @@ Material:
     m_Floats:
     - _Divide: 1
     - _Mult: 0.5
-    - _Page: 7.44
+    - _Page: 7.83
     - _Pixel_density: 5.12
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Resolution: 32.29
+    - _Resolution: 62.5
     m_Colors:
+    - _Background: {r: 0.242524, g: 0.3738438, b: 0.4716981, a: 0}
     - _Color: {r: 0, g: 0.47821, b: 1, a: 0}
-    - _Emission: {r: 0, g: 0.00056678924, b: 0.0007314645, a: 0}
+    - _Emission: {r: 0, g: 49.344425, b: 63.25359, a: 0}
     - _Resolution: {r: 36, g: 94.4, b: 0, a: 0}
   m_BuildTextureStacks: []
