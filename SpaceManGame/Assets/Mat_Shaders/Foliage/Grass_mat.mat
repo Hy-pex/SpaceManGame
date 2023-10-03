@@ -52,7 +52,7 @@ Material:
     - _WindDensity: 0.2
     - _WindStrength: 0.3
     m_Colors:
-    - _BotColor: {r: 0.04690281, g: 0.3207547, b: 0.22741885, a: 0}
-    - _TopColor: {r: 0.5678434, g: 0.8207547, b: 0.5149074, a: 0}
+    - _BotColor: {r: 0.5566038, g: 0.3472135, b: 0.2756764, a: 0}
+    - _TopColor: {r: 0.9622642, g: 0.7024306, b: 0.5764507, a: 0}
     - _WindMovement: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
