@@ -152,8 +152,9 @@ namespace StarterAssets
             _fallTimeoutDelta = FallTimeout;
         }
 
-        private void Update()
+        void Update()
         {
+            Shader.SetGlobalVector("_Player", transform.position +Vector3.up);
             _hasAnimator = TryGetComponent(out _animator);
 
             JumpAndGravity();
