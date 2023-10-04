@@ -65,7 +65,7 @@ Material:
     m_Floats:
     - _Divide: 1
     - _Mult: 0.5
-    - _Page: 7.83
+    - _Page: 0
     - _Pixel_density: 5.12
     - _QueueControl: 0
     - _QueueOffset: 0
