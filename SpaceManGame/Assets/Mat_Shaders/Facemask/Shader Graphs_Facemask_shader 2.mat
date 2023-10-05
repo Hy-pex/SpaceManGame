@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Image:
-        m_Texture: {fileID: 2800000, guid: b28d062acff8dab49a176d20c28b4a3a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6312ada71abcb9f47b87295cb266ac65, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LED:
@@ -71,11 +71,11 @@ Material:
     - _Divide: 1
     - _Fresnel_Intensity: 0.545
     - _Mult: 0.5
-    - _Page: 0
+    - _Page: 2.53
     - _Pixel_density: 5.12
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Resolution: 62.5
+    - _Resolution: 132.38
     m_Colors:
     - _Background: {r: 0.242524, g: 0.3738438, b: 0.4716981, a: 0}
     - _Background_Color: {r: 0, g: 13.987694, b: 17.148375, a: 0}
