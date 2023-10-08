@@ -9,13 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Bush_mat
   m_Shader: {fileID: -6465566751694194690, guid: cc7bb0e4a66c881419059bc3c101b046, type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _ALPHATEST_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -38,12 +40,27 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 1
+    - _Blend: 0
+    - _CastShadows: 1
     - _ColorReplace: 0
-    - _Hue_Shift: 0
+    - _Cull: 0
+    - _DstBlend: 0
+    - _Gradient_Strengt: 0.654
+    - _Gradient_Strength: 0
+    - _Hue_Shift: 0.838
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _Value: 0.85
     - _WindDensity: 0.1
     - _WindStrength: 0.25
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
     m_Colors:
     - _Color: {r: 0.727252, g: 0, b: 1, a: 0}
     - _WindMovement: {r: 6, g: 0, b: 0, a: 0}

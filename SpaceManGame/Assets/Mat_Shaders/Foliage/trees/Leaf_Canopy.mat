@@ -9,13 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Leaf_Canopy
   m_Shader: {fileID: -6465566751694194690, guid: 52b482cdc170b5f4484075f2930776b8, type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _ALPHATEST_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -38,16 +40,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 1
     - _Alpha_Cutoff: 0.289
+    - _Blend: 0
+    - _CastShadows: 1
+    - _Cull: 0
+    - _DstBlend: 0
     - _Min_Hue_Var: 0.964
     - _Min_Val_Var: 0.85
     - _Min_Variation: 0.97
     - _Normal_Influence: 0.58
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _SSSIntensity: 0.4
     - _SSSPower: 2.11
     - _Seed: 3.21
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZTest: 2
+    - _ZWrite: 1
+    - _ZWriteControl: 0
     m_Colors:
     - _SSSColor: {r: 0.8187393, g: 0.990566, b: 0.7242346, a: 0}
   m_BuildTextureStacks: []
