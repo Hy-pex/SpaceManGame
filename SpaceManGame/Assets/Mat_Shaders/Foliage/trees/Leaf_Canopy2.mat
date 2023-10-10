@@ -11,14 +11,22 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 52b482cdc170b5f4484075f2930776b8, type: 3}
   m_ValidKeywords:
   - _ALPHATEST_ON
+  - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2475
   stringTagMap:
+    MotionVector: User
     RenderType: TransparentCutout
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -40,31 +48,96 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AddPrecomputedVelocity: 0
     - _AlphaClip: 1
+    - _AlphaCutoffEnable: 1
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
     - _Alpha_Cutoff: 0.289
     - _Blend: 0
+    - _BlendMode: 0
     - _CastShadows: 1
+    - _ConservativeDepthOffsetEnable: 0
     - _Cull: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _DepthOffsetEnable: 0
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
     - _Min_Hue_Var: 0.964
     - _Min_Val_Var: 0.85
     - _Min_Variation: 0.97
     - _Normal_Influence: 0.58
+    - _OpaqueCullMode: 2
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RayTracing: 0
     - _ReceiveShadows: 1
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
     - _SSSIntensity: 0.4
     - _SSSPower: 2.11
     - _Seed: 3.21
     - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SupportDecals: 1
     - _Surface: 0
+    - _SurfaceType: 0
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UseShadowThreshold: 0
     - _WorkflowMode: 1
     - _ZTest: 2
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 3
+    - _ZTestTransparent: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Light_Angle: {r: 0, g: 0, b: 0, a: 0}
     - _SSSColor: {r: 0.044544343, g: 0.7264151, b: 0.1271234, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &4043094678883778414
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
 --- !u!114 &8988164639649594967
 MonoBehaviour:
   m_ObjectHideFlags: 11
