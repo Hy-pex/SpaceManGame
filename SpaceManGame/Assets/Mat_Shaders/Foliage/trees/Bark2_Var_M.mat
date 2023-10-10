@@ -87,9 +87,9 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Min_Hue_Var: 1.039
-    - _Min_Sat_Var: 1.102
-    - _Min_Val_Var: 0.5
+    - _Min_Hue_Var: 0.652
+    - _Min_Sat_Var: 0.5
+    - _Min_Val_Var: 0.567
     - _OpaqueCullMode: 2
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -99,7 +99,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Seed: 20.55
+    - _Seed: 38
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8

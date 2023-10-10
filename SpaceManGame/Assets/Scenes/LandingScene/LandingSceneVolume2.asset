@@ -303,7 +303,7 @@ MonoBehaviour:
     m_Value: 1
   sphericalMode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   seaLevel:
     m_OverrideState: 1
     m_Value: 0
@@ -330,7 +330,7 @@ MonoBehaviour:
     m_Value: 55261.973
   aerosolDensity:
     m_OverrideState: 1
-    m_Value: 0.008
+    m_Value: 0.239
   aerosolTint:
     m_OverrideState: 1
     m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f034cba68ab55e046ae1445a42f18c0e, type: 3}
   m_Name: IndirectLightingController
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   indirectDiffuseLightingMultiplier:
     m_OverrideState: 1
     m_Value: 1.4
@@ -429,7 +429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953beb541740ddc499d005ee80c9ff29, type: 3}
   m_Name: Fog
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   quality:
     m_OverrideState: 1
     m_Value: 1
@@ -447,7 +447,7 @@ MonoBehaviour:
     m_Value: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
   maxFogDistance:
     m_OverrideState: 1
-    m_Value: 5000
+    m_Value: 865
   mipFogMaxMip:
     m_OverrideState: 0
     m_Value: 0.5
@@ -462,10 +462,10 @@ MonoBehaviour:
     m_Value: 0.3
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 43
+    m_Value: 2
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 279
+    m_Value: 794.2
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
@@ -549,10 +549,10 @@ MonoBehaviour:
     m_Value: 0.09
   intensity:
     m_OverrideState: 1
-    m_Value: 0.08
+    m_Value: 0.277
   scatter:
     m_OverrideState: 1
-    m_Value: 0.127
+    m_Value: 0.073
   tint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -660,10 +660,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d08ce26990eb1a4a9177b860541e702, type: 3}
   m_Name: Exposure
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   meteringMode:
     m_OverrideState: 1
     m_Value: 2
@@ -672,7 +672,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 13.064156
+    m_Value: 13.854065
   compensation:
     m_OverrideState: 1
     m_Value: 0
