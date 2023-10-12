@@ -12,7 +12,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Tree4_Bark1
+    second: {fileID: 2100000, guid: 33d78f26d266d5c45a4b1c56007141f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Tree4_Canopy
+    second: {fileID: 2100000, guid: 6d3af2d29ebe2d2428e0bf8f5a972737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree4_Canopy1
     second: {fileID: 2100000, guid: 6d3af2d29ebe2d2428e0bf8f5a972737, type: 2}
   materials:
     materialImportMode: 2
@@ -44,7 +54,10 @@ ModelImporter:
     clipAnimations: []
     isReadable: 0
   meshes:
-    lODScreenPercentages: []
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
     globalScale: 1
     meshCompression: 0
     addColliders: 0

@@ -12,8 +12,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: bark1
+    second: {fileID: 2100000, guid: 088390fdc2cd94f4cba40988595ca750, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: canopy
     second: {fileID: 2100000, guid: 383b729313dea054c96cc11f1a832bc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canopy1
+    second: {fileID: 2100000, guid: 9809e6a86e0c7e94685ce8f6c8ad6540, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,7 +54,10 @@ ModelImporter:
     clipAnimations: []
     isReadable: 0
   meshes:
-    lODScreenPercentages: []
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
     globalScale: 0.8
     meshCompression: 0
     addColliders: 0
@@ -98,7 +111,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.008
+    globalScale: 0.8
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
