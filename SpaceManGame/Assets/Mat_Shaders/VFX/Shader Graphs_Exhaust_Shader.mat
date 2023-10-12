@@ -99,9 +99,9 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
-    - _ZTestDepthEqualForOpaque: 8
+    - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
-    - _ZTestTransparent: 8
+    - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 41.73181, g: 12.890978, b: 0.87396467, a: 0}
