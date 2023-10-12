@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 9bfd3ae7870eaf54da1dcb10c2be664e
+guid: c0a36410d58f39d43bc2c79a6eb7257e
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: -5706934707952074829
-    second: Roof
+      74: 963627744097431098
+    second: Panel
   externalObjects: {}
   materials:
     materialImportMode: 2
