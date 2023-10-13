@@ -330,10 +330,10 @@ MonoBehaviour:
     m_Value: 55261.973
   aerosolDensity:
     m_OverrideState: 1
-    m_Value: 0.239
+    m_Value: 0.04
   aerosolTint:
     m_OverrideState: 1
-    m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    m_Value: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
   aerosolMaximumAltitude:
     m_OverrideState: 1
     m_Value: 8289.296
@@ -422,10 +422,10 @@ MonoBehaviour:
     m_Value: 7.3
   farFocusStart:
     m_OverrideState: 1
-    m_Value: 502.5
+    m_Value: 952.5
   farFocusEnd:
     m_OverrideState: 1
-    m_Value: 10000
+    m_Value: 7638.7
   m_NearSampleCount:
     m_OverrideState: 1
     m_Value: 5
@@ -462,7 +462,7 @@ MonoBehaviour:
   active: 1
   indirectDiffuseLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 1.4
+    m_Value: 1.52
   indirectDiffuseLightingLayers:
     m_OverrideState: 0
     m_Value: 255
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953beb541740ddc499d005ee80c9ff29, type: 3}
   m_Name: Fog
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   quality:
     m_OverrideState: 1
     m_Value: 1
