@@ -138,7 +138,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
-    - _Edge: 0.7
+    - _Edge: 0.341
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _EnvironmentReflections: 1
@@ -146,7 +146,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Hue: 0.324
-    - _Lightness: 1
+    - _Lightness: 1.41
     - _Metallic: 0
     - _Moss: 1
     - _OcclusionStrength: 1
@@ -197,7 +197,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Overlaycolor: {r: 0.8235295, g: 0.7843138, b: 0.61960787, a: 0}
+    - _Overlaycolor: {r: 0.8392157, g: 0.5921569, b: 0.5647059, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1641854665481814761
