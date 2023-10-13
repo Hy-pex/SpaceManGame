@@ -87,8 +87,8 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Min_Hue_Var: 0.877
-    - _Min_Sat_Var: 0.7
+    - _Min_Hue_Var: 0.939
+    - _Min_Sat_Var: 1.5
     - _Min_Val_Var: 0.567
     - _OpaqueCullMode: 2
     - _QueueControl: 0
