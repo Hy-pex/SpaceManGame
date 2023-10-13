@@ -44,7 +44,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Bark_Texture:
-        m_Texture: {fileID: 2800000, guid: 93f289f6fa1775243a98324cb40b5361, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2d1b1be665c781b40af4aeb72123ad8b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Metallic_Smoothness:
@@ -87,9 +87,9 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Min_Hue_Var: 0.939
-    - _Min_Sat_Var: 1.5
-    - _Min_Val_Var: 0.567
+    - _Min_Hue_Var: 0.928
+    - _Min_Sat_Var: 0.624
+    - _Min_Val_Var: 0.639
     - _OpaqueCullMode: 2
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -126,7 +126,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _Bot_Gradient: {r: 0.6320754, g: 0.40557003, b: 0.2653524, a: 1}
+    - _Bot_Gradient: {r: 0.2735849, g: 0.16647384, b: 0.1902763, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
