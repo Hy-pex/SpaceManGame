@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 00f3d5ce51f7ad14bb5da5f7a9d54307
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 7105335640442819905
+    second: Introduction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Introduction
+      takeName: Introduction
+      internalID: 0
+      firstFrame: 221
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/L_Hip
+        weight: 1
+      - path: Root/Pelvis/L_Hip/L_Leg
+        weight: 1
+      - path: Root/Pelvis/L_Hip/L_Leg/L_Knee
+        weight: 1
+      - path: Root/Pelvis/L_Hip/L_Leg/L_Knee/L_Heel
+        weight: 1
+      - path: Root/Pelvis/L_Hip/L_Leg/L_Knee/L_Heel/L_Ball
+        weight: 1
+      - path: Root/Pelvis/R_Hip
+        weight: 1
+      - path: Root/Pelvis/R_Hip/R_Leg
+        weight: 1
+      - path: Root/Pelvis/R_Hip/R_Leg/R_Knee
+        weight: 1
+      - path: Root/Pelvis/R_Hip/R_Leg/R_Knee/R_Heel
+        weight: 1
+      - path: Root/Pelvis/R_Hip/R_Leg/R_Knee/R_Heel/R_Ball
+        weight: 1
+      - path: Root/Pelvis/Spine_1
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/L_Shoulder
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/L_Shoulder/L_Clavicle
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/L_Shoulder/L_Elbow
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/L_Shoulder/L_Elbow/L_Wrist
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/L_Shoulder/L_Elbow/L_Wrist/L_Hand_1
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/L_Shoulder/L_Elbow/L_Wrist/L_Hand_1/L_Hand_2
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/L_Cheek
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/L_Ear_1
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/L_Ear_1/L_Ear_2
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/L_Ear_1/L_Ear_2/L_Ear_3
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/L_Eye_0
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/L_Eye_0/L_Eye
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/L_Eyebrow
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/L_Leaf_1
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/L_Leaf_1/L_Leaf_2
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/Nose
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/R_Cheek
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/R_Ear_1
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/R_Ear_1/R_Ear_2
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/R_Ear_1/R_Ear_2/R_Ear_3
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/R_EYe_0
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/R_EYe_0/R_Eye
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/R_Eyebrow
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/R_Leaf_1
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/Neck/Neck_1/Head/R_Leaf_1/R_Leaf_2
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/R_Shoulder
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/R_Shoulder/R_Clavicle
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/R_Shoulder/R_Elbow
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/R_Shoulder/R_Elbow/R_Wrist
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/R_Shoulder/R_Elbow/R_Wrist/R_Hand_1
+        weight: 1
+      - path: Root/Pelvis/Spine_1/Spine_2/Spine_3/R_Shoulder/R_Elbow/R_Wrist/R_Hand_1/R_Hand_2
+        weight: 1
+      - path: Root/Pelvis/Tail_1
+        weight: 1
+      - path: Root/Pelvis/Tail_1/L_Tail_1
+        weight: 1
+      - path: Root/Pelvis/Tail_1/R_Tail_1
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/L_Tail_2
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/R_Tail_2
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/Tail_3/L_Tail_3
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/Tail_3/R_Tail_3
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/Tail_3/Tail_4
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/Tail_3/Tail_4/L_Tail_4
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/Tail_3/Tail_4/R_Tail_4
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/Tail_3/Tail_4/Tail_5
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/Tail_3/Tail_4/Tail_5/L_Tail_5
+        weight: 1
+      - path: Root/Pelvis/Tail_1/Tail_2/Tail_3/Tail_4/Tail_5/R_Tail_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 40f4ee079eb8bcd4a8b20e0be51e9a6a, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1008,7 +1008,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8748892135801146194, guid: 6a127c93fb6a76f4187f7c18a4ecd509, type: 3}
+  - {fileID: 2100000, guid: 38c6270867e74c647a1ffb99357e3d42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1402,6 +1402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3391465242242141026}
   - component: {fileID: 7068634969769211916}
+  - component: {fileID: 3123362221935421743}
   m_Layer: 0
   m_Name: DogCat
   m_TagString: Untagged
@@ -1436,8 +1437,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2619748115164238296}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 6a127c93fb6a76f4187f7c18a4ecd509, type: 3}
+  m_Controller: {fileID: 9100000, guid: f1070d42c18997240b7d47d724a28f99, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1447,6 +1448,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3123362221935421743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2619748115164238296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460c7b962557c5c48ae39defae23d834, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimController: {fileID: 7068634969769211916}
 --- !u!1 &2767829215032517715
 GameObject:
   m_ObjectHideFlags: 0
@@ -3458,7 +3472,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8748892135801146194, guid: 6a127c93fb6a76f4187f7c18a4ecd509, type: 3}
+  - {fileID: 2100000, guid: 38c6270867e74c647a1ffb99357e3d42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4760,7 +4774,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8368722655750445499, guid: 6a127c93fb6a76f4187f7c18a4ecd509, type: 3}
+  - {fileID: 2100000, guid: 9806f1a7aa578c9469d8c871a0bbd4e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
