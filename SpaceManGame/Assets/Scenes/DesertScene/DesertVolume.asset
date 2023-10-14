@@ -312,7 +312,7 @@ MonoBehaviour:
     m_Value: 1
   enable:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   length:
     m_OverrideState: 1
     m_Value: 0.15
@@ -336,10 +336,10 @@ MonoBehaviour:
     m_Value: 0
   rayBias:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.228
   thicknessScale:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0.02
   m_SampleCount:
     m_OverrideState: 1
     m_Value: 10

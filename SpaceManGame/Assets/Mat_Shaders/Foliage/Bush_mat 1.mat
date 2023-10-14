@@ -27,13 +27,15 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: cc7bb0e4a66c881419059bc3c101b046, type: 3}
   m_ValidKeywords:
   - _ALPHATEST_ON
+  - _DISABLE_DECALS
+  - _DISABLE_SSR
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2475
+  m_CustomRenderQueue: 2450
   stringTagMap:
     MotionVector: User
     RenderType: TransparentCutout
@@ -97,23 +99,23 @@ Material:
     - _QueueOffset: 0
     - _RayTracing: 0
     - _ReceiveShadows: 1
-    - _ReceivesSSR: 1
+    - _ReceivesSSR: 0
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 8
+    - _StencilRefDepth: 0
     - _StencilRefDistortionVec: 4
-    - _StencilRefGBuffer: 10
-    - _StencilRefMV: 40
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
-    - _SupportDecals: 1
+    - _SupportDecals: 0
     - _Surface: 0
     - _SurfaceType: 0
     - _TransparentBackfaceEnable: 0
@@ -125,8 +127,8 @@ Material:
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
     - _Value: 1
-    - _WindDensity: 0.1
-    - _WindStrength: 0.25
+    - _WindDensity: 0.13
+    - _WindStrength: 0.19
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZTestDepthEqualForOpaque: 3
@@ -138,7 +140,7 @@ Material:
     - _Color: {r: 0.727252, g: 0, b: 1, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WindMovement: {r: 6, g: 0, b: 0, a: 0}
+    - _WindMovement: {r: 6, g: 3.73, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1858755879447460562
 MonoBehaviour:

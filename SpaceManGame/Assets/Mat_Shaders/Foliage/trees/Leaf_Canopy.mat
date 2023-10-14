@@ -89,7 +89,7 @@ Material:
     - _Min_Hue_Var: 0.979
     - _Min_Val_Var: 1.1
     - _Min_Variation: 0.97
-    - _Normal_Influence: 0.58
+    - _Normal_Influence: 39.56
     - _OpaqueCullMode: 2
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -100,8 +100,8 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _SSSIntensity: 0.4
-    - _SSSPower: 2.11
+    - _SSSIntensity: 10.45
+    - _SSSPower: 1.95
     - _Seed: 25.4
     - _SrcBlend: 1
     - _StencilRef: 0
@@ -135,8 +135,8 @@ Material:
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Light_Angle: {r: 0, g: 0, b: 0, a: 0}
-    - _SSSColor: {r: 1, g: 1, b: 0.759434, a: 1}
+    - _Light_Angle: {r: 65.058, g: 529.225, b: 69.199, a: 0}
+    - _SSSColor: {r: 0.7830189, g: 0.49123356, b: 0.5415414, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &8988164639649594967
 MonoBehaviour:
