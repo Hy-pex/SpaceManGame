@@ -197,7 +197,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Overlaycolor: {r: 0.8392157, g: 0.5921569, b: 0.5647059, a: 0}
+    - _Overlaycolor: {r: 0.735849, g: 0.43484187, b: 0.3922214, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1641854665481814761
