@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Tree1_bark1
-    second: {fileID: 2100000, guid: 088390fdc2cd94f4cba40988595ca750, type: 2}
+    second: {fileID: 2100000, guid: cf7e7e6a84316a94289c7aedff5b7576, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
