@@ -90,7 +90,7 @@ Material:
     - _StencilWriteMaskMV: 40
     - _SupportDecals: 1
     - _SurfaceType: 1
-    - _Thrust: 0.47
+    - _Thrust: 0.69
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
