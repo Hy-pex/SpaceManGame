@@ -70,7 +70,7 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Hue: 0.877
+    - _Hue: 0.899
     - _Lightness: 0.974
     - _OpaqueCullMode: 2
     - _RayTracing: 0
@@ -79,7 +79,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Saturation: 0.221
+    - _Saturation: 0.437
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
