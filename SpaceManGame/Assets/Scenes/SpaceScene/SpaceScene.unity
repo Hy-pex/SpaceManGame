@@ -958,6 +958,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5657046368607948322, guid: 11036845379f1b14ca5aba692ffb19a7, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5657046369308989842, guid: 11036845379f1b14ca5aba692ffb19a7, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5657046369659139381, guid: 11036845379f1b14ca5aba692ffb19a7, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5657046369796575617, guid: 11036845379f1b14ca5aba692ffb19a7, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6838284877695128498, guid: 11036845379f1b14ca5aba692ffb19a7, type: 3}
       propertyPath: m_Name
       value: Flyover_Ship

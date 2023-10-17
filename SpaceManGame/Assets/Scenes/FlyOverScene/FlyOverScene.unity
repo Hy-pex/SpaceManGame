@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 9804.656, g: 11550.6875, b: 13171.4375, a: 1}
+  m_IndirectSpecularColor: {r: 9521.045, g: 11378.59, b: 13040.578, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -781,7 +781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &119703491
 Transform:
   m_ObjectHideFlags: 0
@@ -960,7 +960,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -4327,6 +4327,36 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 4852831223973966775, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -2391597560114795731, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2886732430553601718, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 2887869454660117669, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1488167130992780640, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -8726036292117209784, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3209676555248605812, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3798220102836300363, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -912748913843830102, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3838709508558879168, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7660920463583549739, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4301530890179779654, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -4839214991289519204, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8563310814934046113, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3612530505824969528, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -8014684386081849042, guid: be33f22a7b0232844abff4339aba8b87, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &998573400
@@ -7458,7 +7488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 208b751b47230ec439578518acabe424, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54999995
+      value: 1.09
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 208b751b47230ec439578518acabe424, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7495,6 +7525,18 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 208b751b47230ec439578518acabe424, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6422781385284934174, guid: 208b751b47230ec439578518acabe424, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.49
+      objectReference: {fileID: 0}
+    - target: {fileID: -6422781385284934174, guid: 208b751b47230ec439578518acabe424, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.16
+      objectReference: {fileID: 0}
+    - target: {fileID: -6422781385284934174, guid: 208b751b47230ec439578518acabe424, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 208b751b47230ec439578518acabe424, type: 3}
       propertyPath: m_Name
@@ -9373,6 +9415,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 685773997}
     m_Modifications:
+    - target: {fileID: 492698127304979493, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 492698127632367848, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798334864156155761, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3954671941288597487, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
       propertyPath: m_RootOrder
       value: 23

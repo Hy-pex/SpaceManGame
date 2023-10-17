@@ -868,7 +868,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614583}
   - {fileID: 8926484042661614585}
   dataType: 0
-  capacity: 32
+  capacity: 2500
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -4457,7 +4457,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614711}
   - {fileID: 8926484042661614722}
   - {fileID: 8926484042661614725}
-  m_UIPosition: {x: 2360, y: 24}
+  m_UIPosition: {x: 2360, y: 25}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6015,7 +6015,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614690}
   - {fileID: 8926484042661614671}
   dataType: 0
-  capacity: 32
+  capacity: 2500
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0

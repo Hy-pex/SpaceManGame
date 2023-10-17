@@ -80,7 +80,7 @@ Material:
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
-    - _Background_Visibility: 0.021
+    - _Background_Visibility: 0.89
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -93,7 +93,7 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Fresnel_Intensity: 0.545
+    - _Fresnel_Intensity: 0.015
     - _Mult: 0.5
     - _OpaqueCullMode: 2
     - _Page: 9
@@ -134,10 +134,10 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Background: {r: 0.242524, g: 0.3738438, b: 0.4716981, a: 0}
-    - _Background_Color: {r: 0, g: 13.987694, b: 17.148375, a: 0}
+    - _Background_Color: {r: 0, g: 13.842655, b: 16.94838, a: 1}
     - _Color: {r: 0, g: 0.47821, b: 1, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _Emission: {r: 0, g: 16.386837, b: 20.865906, a: 0}
+    - _Emission: {r: 0, g: 53.240982, b: 67.79352, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Resolution: {r: 36, g: 94.4, b: 0, a: 0}
   m_BuildTextureStacks: []
