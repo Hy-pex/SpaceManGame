@@ -520,7 +520,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 3
   focusMode:
     m_OverrideState: 1
     m_Value: 2
@@ -532,10 +532,10 @@ MonoBehaviour:
     m_Value: 0
   nearFocusStart:
     m_OverrideState: 1
-    m_Value: 3.99999
+    m_Value: 0.68
   nearFocusEnd:
     m_OverrideState: 1
-    m_Value: 7.3
+    m_Value: 153.73
   farFocusStart:
     m_OverrideState: 1
     m_Value: 952.5
@@ -562,7 +562,7 @@ MonoBehaviour:
     m_Value: 1
   m_PhysicallyBased:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
 --- !u!114 &-1977456740984883424
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -669,7 +669,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 2078
   enableVolumetricFog:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   albedo:
     m_OverrideState: 1
