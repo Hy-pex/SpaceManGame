@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 753907402}
-  m_IndirectSpecularColor: {r: 6754.1616, g: 6286.1445, b: 10954.008, a: 1}
+  m_IndirectSpecularColor: {r: 6754.934, g: 6286.674, b: 10955.633, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5501,6 +5501,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 649419515126783560, guid: 74a2dea8881b3b64e86683543b1c43c0, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1579168925060865771, guid: 74a2dea8881b3b64e86683543b1c43c0, type: 3}
       propertyPath: m_Name
       value: Character_SideScrolling
@@ -5548,6 +5552,10 @@ PrefabInstance:
     - target: {fileID: 1599911114338068943, guid: 74a2dea8881b3b64e86683543b1c43c0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440758726581015890, guid: 74a2dea8881b3b64e86683543b1c43c0, type: 3}
+      propertyPath: antialiasing
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a2dea8881b3b64e86683543b1c43c0, type: 3}
