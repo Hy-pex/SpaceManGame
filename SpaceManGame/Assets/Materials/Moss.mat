@@ -162,7 +162,7 @@ Material:
     - _SupportDecals: 1
     - _Surface: 0
     - _SurfaceType: 0
-    - _Tiling: 0.39
+    - _Tiling: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
