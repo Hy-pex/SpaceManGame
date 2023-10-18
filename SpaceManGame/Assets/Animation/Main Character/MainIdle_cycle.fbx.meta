@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 2e03c34df28acc84a825de17bb4e74b8
+guid: 5e5b6a6ecf108994fa6b11d197c3e60d
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: 1001655402928548932
-    second: Walk_cycle
+      74: -1582374347919167746
+    second: Idle_cycle
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -36,11 +36,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Walk_cycle
-      takeName: Walk_cycle
+      name: Idle_cycle
+      takeName: Idle_cycle
       internalID: 0
-      firstFrame: 0
-      lastFrame: 30
+      firstFrame: 281
+      lastFrame: 337
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -63,7 +63,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 281
     isReadable: 0
   meshes:
     lODScreenPercentages: []
