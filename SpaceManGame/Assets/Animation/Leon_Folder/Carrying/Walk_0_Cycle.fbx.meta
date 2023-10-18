@@ -34,7 +34,134 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk_0_Cycle
+      takeName: Walk_0_Cycle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Backside_cape_base_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Backside_cape_base_jnt/Backside_cape_tip_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/L_front_cape_base_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/L_front_cape_base_jnt/L_front_cape_tip_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/L_hip_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/L_hip_jnt/L_knee_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/L_hip_jnt/L_knee_jnt/LFoot_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/L_hip_jnt/L_knee_jnt/LFoot_jnt/L_Ball_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/L_hip_jnt/L_knee_jnt/LFoot_jnt/L_Ball_jnt/L_toe_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/R_front_cape_base_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/R_front_cape_base_jnt/R_front_cape_tip_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/R_hitp_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/R_hitp_jnt/R_knee_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/R_hitp_jnt/R_knee_jnt/R_Foot_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/R_hitp_jnt/R_knee_jnt/R_Foot_jnt/R_Ball_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/R_hitp_jnt/R_knee_jnt/R_Foot_jnt/R_Ball_jnt/R_toe_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt/R_hand_jnt10
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt/R_hand_jnt10/R_hand_jnt11
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt/R_hand_jnt10/R_hand_jnt11/R_hand_jnt12
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt/R_hand_jnt10/R_hand_jnt13
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt/R_hand_jnt10/R_hand_jnt13/R_hand_jnt14
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt/R_hand_jnt10/R_hand_jnt15
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt/R_hand_jnt10/R_hand_jnt15/R_hand_jnt16
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt/R_hand_jnt10/R_hand_jnt17
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/L_shoulder_jnt/L_elbow_jnt/L_hand_jnt/R_hand_jnt10/R_hand_jnt17/R_hand_jnt18
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Neck_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Neck_jnt/Head_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt/R_hand_jnt1
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt/R_hand_jnt1/R_hand_jnt2
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt/R_hand_jnt1/R_hand_jnt2/R_hand_jnt3
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt/R_hand_jnt1/R_hand_jnt4
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt/R_hand_jnt1/R_hand_jnt4/R_hand_jnt5
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt/R_hand_jnt1/R_hand_jnt6
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt/R_hand_jnt1/R_hand_jnt6/R_hand_jnt7
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt/R_hand_jnt1/R_hand_jnt8
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/R_shoulder_jnt/R_elbow_jnt/R_hand_jnt/R_hand_jnt1/R_hand_jnt8/R_hand_jnt9
+        weight: 1
+      - path: Root_jnt/Pelvis_jnt/Tube_sack_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -96,11 +223,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6f3643a7c2d85f5419333e50b13979d9, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
