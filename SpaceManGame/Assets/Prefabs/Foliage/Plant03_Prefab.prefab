@@ -102,5 +102,9 @@ LODGroup:
   - screenRelativeHeight: 0.005032614
     fadeTransitionWidth: 0
     renderers:
+<<<<<<< Updated upstream
     - renderer: {fileID: 0}
+=======
+    - renderer: {fileID: 7511822187905294015}
+>>>>>>> Stashed changes
   m_Enabled: 1
