@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: a1ad8f47365406745bf603bb9db9f8de
+guid: b57433823bbcbc14087af95b0e2b94a0
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: -1286637669368707146
-    second: Crafting grapplinghook scene one
+      74: -4300062552867663785
+    second: Crafting
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -92,15 +92,15 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Root_jnt
+    rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6f3643a7c2d85f5419333e50b13979d9, type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 2
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
