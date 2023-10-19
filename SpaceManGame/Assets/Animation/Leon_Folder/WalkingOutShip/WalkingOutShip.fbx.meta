@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 5e5b6a6ecf108994fa6b11d197c3e60d
+guid: ba8fec68bede9dc438d7ee5e64066424
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: -1582374347919167746
-    second: Idle_cycle
+      74: -2393275408583192311
+    second: WalkingOutShip
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -27,43 +27,14 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 0
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Idle_cycle
-      takeName: Idle_cycle
-      internalID: 0
-      firstFrame: 281
-      lastFrame: 337
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 281
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
