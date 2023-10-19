@@ -3,7 +3,17 @@ guid: 6f3643a7c2d85f5419333e50b13979d9
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Facemask
+    second: {fileID: 2100000, guid: 67f48bd3b2677664d999e0fd4d6773c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 2954285e4d3b5d844a354f43b2676e00, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
