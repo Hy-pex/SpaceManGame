@@ -40,6 +40,30 @@ public class Anim_Manual_Control : MonoBehaviour
         {
             AnimController.SetTrigger("Anim_5");
         }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            AnimController.SetTrigger("Animation_0");
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            AnimController.SetTrigger("Animation_1");
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            AnimController.SetTrigger("Animation_2");
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            AnimController.SetTrigger("Animation_3");
+        }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            AnimController.SetTrigger("Animation_4");
+        }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            AnimController.SetTrigger("Animation_5");
+        }
         
     }
 }
