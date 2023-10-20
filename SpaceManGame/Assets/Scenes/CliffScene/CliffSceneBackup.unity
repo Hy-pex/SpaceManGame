@@ -900,7 +900,7 @@ GameObject:
   - component: {fileID: 1094272540}
   - component: {fileID: 1094272539}
   m_Layer: 0
-  m_Name: CliffTerrain
+  m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,7 +915,7 @@ TerrainCollider:
   m_GameObject: {fileID: 1094272538}
   m_Material: {fileID: 0}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: eef6bf1b10064de438c5189398475282, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 6941ce3ea5f053146b5c5173c7932001, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1094272540
 Terrain:
@@ -926,7 +926,7 @@ Terrain:
   m_GameObject: {fileID: 1094272538}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: eef6bf1b10064de438c5189398475282, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 6941ce3ea5f053146b5c5173c7932001, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
