@@ -41,7 +41,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Image:
-        m_Texture: {fileID: 2800000, guid: 6312ada71abcb9f47b87295cb266ac65, type: 3}
+        m_Texture: {fileID: 2800000, guid: c5883f54af00afb4a9f79d3885149ead, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LED:
@@ -80,7 +80,7 @@ Material:
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
-    - _Background_Visibility: 0.89
+    - _Background_Visibility: 0.709
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -93,10 +93,11 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Fresnel_Intensity: 0.015
+    - _Fresnel_Intensity: 0.002
+    - _Metallic: 0.7
     - _Mult: 0.5
     - _OpaqueCullMode: 2
-    - _Page: 9
+    - _Page: 7.54
     - _Pixel_density: 5.12
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -107,6 +108,7 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _Resolution: 132.38
+    - _Smoothness: 0.3
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
