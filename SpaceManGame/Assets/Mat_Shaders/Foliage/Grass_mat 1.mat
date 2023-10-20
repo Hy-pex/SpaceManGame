@@ -41,7 +41,6 @@ Material:
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
-  - _RECEIVE_SHADOWS_OFF
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -97,7 +96,7 @@ Material:
     - _OpaqueCullMode: 2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RECEIVE_SHADOWS_OFF: 1
+    - _RECEIVE_SHADOWS_OFF: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0

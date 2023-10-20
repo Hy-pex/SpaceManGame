@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 753907402}
-  m_IndirectSpecularColor: {r: 4725.4033, g: 6700.4863, b: 4849.547, a: 1}
+  m_IndirectSpecularColor: {r: 4724.378, g: 6699.168, b: 4849.6875, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3345,7 +3345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 507577187311517852, guid: 8ec6701e8cf10014d8f35f11685f95ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 259.611
+      value: 260.62
       objectReference: {fileID: 0}
     - target: {fileID: 507577187311517852, guid: 8ec6701e8cf10014d8f35f11685f95ad, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3353,7 +3353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 507577187311517852, guid: 8ec6701e8cf10014d8f35f11685f95ad, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 182.53271
+      value: 182.11
       objectReference: {fileID: 0}
     - target: {fileID: 507577187311517852, guid: 8ec6701e8cf10014d8f35f11685f95ad, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6532,7 +6532,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932180711}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
