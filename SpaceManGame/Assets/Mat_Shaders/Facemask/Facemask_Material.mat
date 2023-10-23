@@ -97,7 +97,7 @@ Material:
     - _Metallic: 0.7
     - _Mult: 0.5
     - _OpaqueCullMode: 2
-    - _Page: 11.42
+    - _Page: 0
     - _Pixel_density: 5.12
     - _QueueControl: 0
     - _QueueOffset: 0
