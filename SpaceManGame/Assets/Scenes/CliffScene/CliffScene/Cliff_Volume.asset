@@ -576,6 +576,49 @@ MonoBehaviour:
   reflectionProbeIntensityMultiplier:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &-1923818333635729990
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddcec8a8eb2d684d833ac8f5d26aebd, type: 3}
+  m_Name: HDShadowSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  maxShadowDistance:
+    m_OverrideState: 1
+    m_Value: 572
+  directionalTransmissionMultiplier:
+    m_OverrideState: 1
+    m_Value: 1
+  cascadeShadowSplitCount:
+    m_OverrideState: 1
+    m_Value: 4
+  cascadeShadowSplit0:
+    m_OverrideState: 0
+    m_Value: 0.15
+  cascadeShadowSplit1:
+    m_OverrideState: 0
+    m_Value: 0.19405594
+  cascadeShadowSplit2:
+    m_OverrideState: 0
+    m_Value: 0.19405594
+  cascadeShadowBorder0:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeShadowBorder1:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeShadowBorder2:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeShadowBorder3:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,6 +642,7 @@ MonoBehaviour:
   - {fileID: 4210632427082270070}
   - {fileID: -2623423207061654963}
   - {fileID: 1758998468062235455}
+  - {fileID: -1923818333635729990}
 --- !u!114 &1758998468062235455
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1002,7 +1046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953beb541740ddc499d005ee80c9ff29, type: 3}
   m_Name: Fog
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   quality:
     m_OverrideState: 0
     m_Value: 1
@@ -1017,7 +1061,7 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 1, g: 0.3696088, b: 0.08018869, a: 1}
   maxFogDistance:
     m_OverrideState: 1
     m_Value: 5000
@@ -1032,13 +1076,13 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 41.27
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 50
+    m_Value: 45.6
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 16708.7
+    m_Value: 4367.1
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
