@@ -167,22 +167,22 @@ MonoBehaviour:
     m_Value: 7.3
   farFocusStart:
     m_OverrideState: 1
-    m_Value: 952.5
+    m_Value: 7.30001
   farFocusEnd:
     m_OverrideState: 1
-    m_Value: 7638.7
+    m_Value: 541
   m_NearSampleCount:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 8
   m_NearMaxBlur:
     m_OverrideState: 1
     m_Value: 4
   m_FarSampleCount:
     m_OverrideState: 1
-    m_Value: 7
+    m_Value: 16
   m_FarMaxBlur:
     m_OverrideState: 1
-    m_Value: 8
+    m_Value: 2.29
   m_Resolution:
     m_OverrideState: 1
     m_Value: 2

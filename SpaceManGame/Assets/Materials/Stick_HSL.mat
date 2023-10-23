@@ -71,7 +71,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _Hue: 0.932
-    - _Lightness: 1
+    - _Lightness: 3
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _ReceivesSSR: 1

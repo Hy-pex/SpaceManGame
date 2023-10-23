@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 356.6936, g: 435.25342, b: 493.7976, a: 1}
+  m_IndirectSpecularColor: {r: 205.00989, g: 283.76697, b: 367.73535, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4017,7 +4017,7 @@ MonoBehaviour:
   MinBrightness: 2400
   MaxBrightness: 3800
   lgt: {fileID: 883285584}
-  smoothing: 10
+  smoothing: 4
 --- !u!1001 &905546554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9617,11 +9617,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 492698127304979493, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 492698127304979498, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 492698127632367848, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 492698127632367851, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Value
+      value: 18.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 492698127632367851, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[1].m_Value
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 492698127632367851, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 492698127632367851, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 492698127632367851, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.y
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 492698127632367851, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 492698127632367851, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2798334864156155761, guid: 4ecf58b4db66dff4f8a4805372d72665, type: 3}
       propertyPath: m_Enabled
