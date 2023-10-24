@@ -14,10 +14,10 @@ public class ChangeDepthOfField : MonoBehaviour
     private VolumeProfile profile;
     private DepthOfField dof;
 
-    [Range(0.0f, 300.0f)] public float nearStart;    
-    [Range(0.0f, 300.0f)] public float nearEnd;
-    [Range(0.0f, 300.0f)] public float farStart;
-    [Range(0.0f, 300.0f)] public float farEnd;
+    [Range(0.0f, 2000.0f)] public float nearStart;    
+    [Range(0.0f, 2000.0f)] public float nearEnd;
+    [Range(0.0f, 2000.0f)] public float farStart;
+    [Range(0.0f, 2000.0f)] public float farEnd;
     
     
     //public Slider depthSlider;
