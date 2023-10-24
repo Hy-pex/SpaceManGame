@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: b1869fd4d398f344b957ca85339c7297
+guid: fe91e3f4128ef584da84bb24978f6fb0
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: 7362736391711099522
-    second: Looking for parts
-  - first:
-      74: 2641442179603734139
-    second: looking for parts
+      74: 891374443224831292
+    second: Drag Vine anim
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -30,7 +27,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 0
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
