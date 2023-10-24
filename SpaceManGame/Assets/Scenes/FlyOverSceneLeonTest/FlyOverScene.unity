@@ -8797,6 +8797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2085106233}
   - component: {fileID: 2085106232}
+  - component: {fileID: 2085106234}
   m_Layer: 0
   m_Name: Sky and Fog Global Volume
   m_TagString: Untagged
@@ -8836,6 +8837,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0.098, y: 0, z: 0}
+--- !u!114 &2085106234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085106231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85ac0c92c2f82d4d8c260a4c17f316a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 79dd66e3bfc50694f9914e4fffc6488d, type: 2}
+  nearStart: 0
+  nearEnd: 0
+  farStart: 0
+  farEnd: 0
 --- !u!1001 &2123031420
 PrefabInstance:
   m_ObjectHideFlags: 0
