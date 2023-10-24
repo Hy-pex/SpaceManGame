@@ -64,7 +64,7 @@ MonoBehaviour:
   active: 1
   opacity:
     m_OverrideState: 1
-    m_Value: 0.235
+    m_Value: 0
   upperHemisphereOnly:
     m_OverrideState: 0
     m_Value: 1
@@ -76,10 +76,10 @@ MonoBehaviour:
     m_Value: 1024
   shadowMultiplier:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2.08
   shadowTint:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_Value: {r: 0.17352943, g: 0.08388217, b: 0.2735849, a: 1}
   shadowResolution:
     m_OverrideState: 0
     m_Value: 256
@@ -289,7 +289,7 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 15
   tint:
     m_OverrideState: 0
     m_Value: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
     m_Value: 0
   aerosolTint:
     m_OverrideState: 1
-    m_Value: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    m_Value: {r: 0.9485137, g: 0.980496, b: 0.990566, a: 1}
   aerosolMaximumAltitude:
     m_OverrideState: 1
     m_Value: 8289.296
@@ -416,10 +416,10 @@ MonoBehaviour:
     m_Value: 0.675
   horizonTint:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0.4339623, b: 0.37554428, a: 1}
+    m_Value: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
   zenithTint:
     m_OverrideState: 1
-    m_Value: {r: 0.9339623, g: 0, b: 0.8936721, a: 1}
+    m_Value: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
   horizonZenithShift:
     m_OverrideState: 1
     m_Value: -0.765
@@ -578,19 +578,19 @@ MonoBehaviour:
   active: 1
   indirectDiffuseLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 0.28
+    m_Value: 1.61
   indirectDiffuseLightingLayers:
     m_OverrideState: 0
     m_Value: 255
   reflectionLightingMultiplier:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 4.74
   reflectionLightingLayers:
     m_OverrideState: 0
     m_Value: 255
   reflectionProbeIntensityMultiplier:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 4.11
 --- !u!114 &-690500499415974792
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -736,6 +736,47 @@ MonoBehaviour:
   - {fileID: -7161335627499907520}
   - {fileID: -3380012656699316660}
   - {fileID: 3962852324497984940}
+  - {fileID: 3580689071333775893}
+--- !u!114 &3580689071333775893
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c1be1b6c95cd2e41b27903b9270817f, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 0
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  center:
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.5}
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.463
+  smoothness:
+    m_OverrideState: 0
+    m_Value: 0.2
+  roundness:
+    m_OverrideState: 0
+    m_Value: 1
+  rounded:
+    m_OverrideState: 0
+    m_Value: 0
+  mask:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  opacity:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &3962852324497984940
 MonoBehaviour:
   m_ObjectHideFlags: 3
